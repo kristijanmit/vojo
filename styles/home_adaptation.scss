@@ -1,0 +1,26 @@
+.home-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/images/home_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-features {
+    background-color: #212121;
+
+    .feature-card {
+        background-color: #ff0000;
+
+        .feature-paragraph {
+            color: #ffffff;
+        }
+
+        .white {
+            color: #ffffff;
+        }
+    }
+}
