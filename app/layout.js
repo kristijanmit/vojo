@@ -5,6 +5,7 @@ import Footer from "@layouts/partials/Footer";
 import Header from "@layouts/partials/Header";
 import Providers from "@layouts/partials/Providers";
 import "../styles/style.scss";
+import ContactInfo from "@layouts/partials/ContactInfo";
 
 export const metadata = {
   title: "BigSpring Light Nextjs",
@@ -35,9 +36,8 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
         />
         <link
-          href={`https://fonts.googleapis.com/css2?family=${pf}${
-            sf ? "&family=" + sf : ""
-          }&display=swap`}
+          href={`https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""
+            }&display=swap`}
           rel="stylesheet"
         />
 
@@ -59,6 +59,7 @@ export default function RootLayout({ children }) {
         <TwSizeIndicator />
         <Header />
         <Providers>{children}</Providers>
+        <ContactInfo />
         <Footer />
       </body>
     </html>

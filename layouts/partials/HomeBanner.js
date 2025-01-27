@@ -11,7 +11,7 @@ const HomeBanner = ({ banner }) => {
         <div className="row text-center">
           <div className="mx-auto lg:col-10">
             <h1 className="font-primary font-bold text-white">{banner.title}</h1>
-            <p className="mt-4">{markdownify(banner.content)}</p>
+            <p className="mt-4 white">{markdownify(banner.content)}</p>
             {banner.button.enable && (
               <Link
                 className="btn btn-primary mt-4"
@@ -21,7 +21,7 @@ const HomeBanner = ({ banner }) => {
                 {banner.button.label}
               </Link>
             )}
-            <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-center md:order-2 md:ml-0 md:flex">
+            <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-center md:order-2 md:ml-0 md:flex button">
               <Link className="btn btn-primary z-0 py-[14px] bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300" href={link} rel="">
                 {label}
               </Link>

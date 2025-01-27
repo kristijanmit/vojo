@@ -45,7 +45,7 @@ const Services = ({ services }) => {
             >
               <h2 className="font-bold leading-[40px] white">{service?.title}</h2>
               <p className="mb-2 mt-4 white">{service?.content}</p>
-              {service.button.enable && (
+              {/* {service.button.enable && (
                 <Link
                   href={service?.button.link}
                   className="cta-link inline-flex items-center text-primary"
@@ -59,7 +59,7 @@ const Services = ({ services }) => {
                     alt="arrow"
                   />
                 </Link>
-              )}
+              )} */}
             </div>
           </div>
         </div>

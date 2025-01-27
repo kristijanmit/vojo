@@ -1,6 +1,6 @@
 .header {
   @apply bg-white py-[14px] px-4 md:px-0 md:py-[9px];
-  background-color: "#212121";
+  background-color: #212121;
 }
 
 // navbar items
@@ -34,6 +34,7 @@
 
 .nav-link {
   @apply py-3 px-2 font-primary text-base font-bold text-dark transition hover:text-primary md:py-4 lg:px-3;
+  color: white;
 
   &-active {
     @apply text-primary text-red-700 hover:text-red-800;
