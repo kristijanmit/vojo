@@ -1,57 +1,61 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Početna",
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "/blogs"
+      "name": "O Nama",
+      "url": "/#o-nama"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
+      "name": "Usluge",
+      "url": "/#usluge"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Kontakt",
+      "url": "/#kontakt"
     },
     {
-      "name": "FAQ",
-      "url": "/faq"
+      "name": "Galerija",
+      "url": "/#galerija"
     }
   ],
   "contactInfo": [
     {
-      "name": "Product",
+      "name": "Email Adresa",
       "menu": [
         {
-          "text": "Features",
+          "text": "info@stambenagradnjavojo.rs",
           "url": "#"
         },
         {
-          "text": "Platform",
+          "text": "Radno Vreme:",
           "url": "#"
         },
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Pon - Pet",
+          "url": "#"
+        },
+        {
+          "text": "06:00h - 20:00h",
+          "url": "#"
         }
       ]
     },
     {
-      "name": "Support",
+      "name": "Broj Telefona",
       "menu": [
         {
-          "text": "FAQ",
-          "url": "/faq"
+          "text": "(+381) 60 0000000",
+          "url": ""
         },
         {
-          "text": "Privacy Policy",
+          "text": "(+381) 60 0000000",
           "url": "#"
         },
         {
-          "text": "Terms & Conditions",
+          "text": "(+381) 60 0000000",
           "url": "#"
         }
       ]
@@ -59,35 +63,47 @@
   ],
   "footer": [
     {
-      "name": "Product",
+      "name": "Kontakt",
       "menu": [
         {
-          "text": "Features",
+          "text": "Email: info@stambenagradnjavojo.rs",
           "url": "#"
         },
         {
-          "text": "Platform",
+          "text": "Adresa: Jovana Jovanovića 22,",
           "url": "#"
         },
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "11000 Beograd",
+          "url": "#"
+        },
+        {
+          "text": "Telefon: (+381) 60 0000000",
+          "url": "#"
         }
       ]
     },
     {
-      "name": "Support",
+      "name": "Linkovi",
       "menu": [
         {
-          "text": "FAQ",
-          "url": "/faq"
-        },
-        {
-          "text": "Privacy Policy",
+          "text": "Početna",
           "url": "#"
         },
         {
-          "text": "Terms & Conditions",
+          "text": "O Nama",
+          "url": "#"
+        },
+        {
+          "text": "Usluge",
+          "url": "#"
+        },
+        {
+          "text": "Galerija",
+          "url": "#"
+        },
+        {
+          "text": "Kontakt",
           "url": "#"
         }
       ]

@@ -6,12 +6,12 @@ import config from "../../config/config.json";
 const HomeBanner = ({ banner }) => {
   const { enable, label, link } = config.nav_button;
   return (
-    <section className="section pb-[50px] home-section">
+    <section id="homeBanner" className="section pb-[50px] home-section">
       <div className="container">
         <div className="row text-center">
-          <div className="mx-auto lg:col-10">
-            <h1 className="font-primary font-bold text-white">{banner.title}</h1>
-            <p className="mt-4 white">{markdownify(banner.content)}</p>
+          <div className="mx-auto lg:col-10 banner-title">
+            <h1 className="font-primary font-bold title text-white">{banner.title}</h1>
+            <p className="mt-4 subtitle white">{markdownify(banner.content)}</p>
             {banner.button.enable && (
               <Link
                 className="btn btn-primary mt-4"

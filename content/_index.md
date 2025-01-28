@@ -9,19 +9,20 @@ banner:
 
 # feature
 feature:
-  title: Something You Need To Know
+  title: Osnovana 2022. godine, Stambena Gradnja Vojo se specijalizuje za visokokvalitetnu stambenu i komercijalnu izgradnju. Naša posvećenost preciznosti, pouzdanosti i dugoročnoj saradnji osigurava da svaki projekat bude završen na vreme i premašuje očekivanja.
+  subtitle: Ističemo se kako u grubim građevinskim radovima, uključujući iskopavanja, vodovodne instalacije i temelje, tako i u završnim radovima poput elektroinstalacija, malterisanja i enterijerskog dizajna. Stručnost našeg tima osigurava da svaki projekat, od temelja do ključa u rukama, bude završen prema najvišim standardima.
   features:
     - name: "Priprema za iskopavanje"
-      icon: "/images/code.png"
+      icon: "/images/code.svg"
       content: "Postavljanje temelja za izvrsnost."
     - name: "Završni Radovi Enterijera:"
-      icon: "/images/oop.png"
+      icon: "/images/oop.svg"
       content: "Transformisanje prostora u domove i poslovne objekte."
     - name: "Strukturni Razvoj:"
-      icon: "/images/user-clock.png"
+      icon: "/images/user-clock.svg"
       content: "Snažno, pouzdano i izgrađeno da traje."
     - name: "Upravljanje Projektima:"
-      icon: "/images/love.png"
+      icon: "/images/love.svg"
       content: "Rešenja od početka do kraja za besprekornu realizaciju."
 
 # services
@@ -72,8 +73,8 @@ workflow:
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Pogledajte naše projekte i saznajte zašto je Stambena Gradnja Vojo pouzdano ime u građevinskoj industriji.
+  # content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
   images:
     - "/images/service-slide-1.png"
     - "/images/service-slide-2.png"
@@ -83,6 +84,6 @@ call_to_action:
     - "/images/service-slide-3.png"
   button:
     enable: true
-    label: "Contact Us"
-    link: "/contact"
+    label: "Kontakt"
+    link: "/#kontakt"
 ---

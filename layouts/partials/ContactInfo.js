@@ -16,15 +16,17 @@ const ContactInfo = () => {
                 <div className="row">
                     <div className="md-12 sm:col-6 lg:col-6">
                         <Link href="/" aria-label="Bigspring">
-                            <Image
-                                src={config.site.logo}
-                                width={config.site.logo_width}
-                                height={config.site.logo_height}
-                                alt=""
-                            />
+                            {markdownify(
+                                'Uvek smo srećni da',
+                                "h2",
+                                "mx-auto max-w-[700px] font-bold leading-[44px]"
+                            )}
+                            {markdownify(
+                                'Vam pomognemo.',
+                                "h2",
+                                "mx-auto max-w-[700px] font-bold leading-[44px]"
+                            )}
                         </Link>
-                        {/* {markdownify(footer_content, "p", "mt-3 mb-6")} */}
-                        <Social source={social} className="social-icons mb-8" />
                     </div>
                     {contactInfo.map((col) => {
                         return (

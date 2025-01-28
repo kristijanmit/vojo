@@ -16,17 +16,21 @@
 // social icon style
 .social-icons {
   @apply space-x-4;
+  margin-top: 1.5rem;
   li {
     @apply inline-block;
     a {
-      @apply block h-9 w-9 rounded-full border border-primary text-center text-white transition hover:bg-primary;
+      @apply block h-9 w-9 rounded-full border border-primary text-center text-white transition;
+      border-color: #aa0000;
 
       svg {
         @apply m-auto h-9 fill-primary;
+        fill: white;
       }
 
       &:hover svg {
         @apply fill-white;
+        fill: #aa0000;
       }
     }
   }

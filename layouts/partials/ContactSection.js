@@ -46,55 +46,57 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="contact-form-container">
-            <h2 className='white'>Have a project in mind? Let’s build something extraordinary together.</h2>
-            <form onSubmit={handleSubmit} className="contact-form">
-                <div className="form-row">
+        <section id='kontakt'>
+            <div className="contact-form-container">
+                <h2 className='white'>Imate projekat na umu? Hajde da zajedno izgradimo nešto izvanredno.</h2>
+                <form onSubmit={handleSubmit} className="contact-form">
+                    <div className="form-row">
+                        <input
+                            type="text"
+                            name="firstName"
+                            placeholder="Ime"
+                            value={formData.firstName}
+                            onChange={handleChange}
+                            required
+                        />
+                        <input
+                            type="text"
+                            name="lastName"
+                            placeholder="Prezime"
+                            value={formData.lastName}
+                            onChange={handleChange}
+                            required
+                        />
+                    </div>
                     <input
-                        type="text"
-                        name="lastName"
-                        placeholder="Last Name"
-                        value={formData.lastName}
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        value={formData.email}
                         onChange={handleChange}
                         required
                     />
                     <input
-                        type="text"
-                        name="firstName"
-                        placeholder="First Name"
-                        value={formData.firstName}
+                        type="tel"
+                        name="phone"
+                        placeholder="Broj telefona"
+                        value={formData.phone}
                         onChange={handleChange}
                         required
                     />
-                </div>
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                />
-                <input
-                    type="tel"
-                    name="phone"
-                    placeholder="Phone Number"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    required
-                />
-                <textarea
-                    name="message"
-                    placeholder="Message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                ></textarea>
-                <button type="submit" className="submit-button">
-                    SEND US A MESSAGE
-                </button>
-            </form>
-        </div>
+                    <textarea
+                        name="message"
+                        placeholder="Poruka"
+                        value={formData.message}
+                        onChange={handleChange}
+                        required
+                    ></textarea>
+                    <button type="submit" className="submit-button">
+                        Pošalji poruku
+                    </button>
+                </form>
+            </div>
+        </section>
     );
 };
 

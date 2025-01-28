@@ -3,6 +3,17 @@
 // }
 .services-section {
     background-color: red;
+
+    .title {
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 53px;
+    }
+    .text {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 32px;
+    }
 }
 
 .dark-background {

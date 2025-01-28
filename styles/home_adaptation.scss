@@ -8,6 +8,16 @@
     flex-direction: column;
     justify-content: center;
 
+    .banner-title {
+        width: 70%;
+    }
+    .title {
+        font-size: 64px;
+    }
+    .subtitle {
+        font-size: 22px;
+    }
+
     .button {
         margin-top: 2rem !important;
     }
@@ -15,6 +25,19 @@
 
 .home-features {
     background-color: #212121;
+
+    .text-top,
+    .text-bottom {
+        font-size: 22px;
+    }
+    .text-top {
+        font-weight: 600;
+        margin-bottom: 4rem;
+    }
+    .text-bottom {
+        font-weight: 500;
+        margin-top: 4rem;
+    }
 
     .feature-card-list {
         display: flex;

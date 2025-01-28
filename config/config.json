@@ -5,7 +5,7 @@
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
-    "logo_height": "48",
+    "logo_height": "70",
     "logo_text": "Bigspring Light"
   },
 
@@ -17,20 +17,20 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "/contact"
+    "label": "Kontakt",
+    "link": "/#kontakt"
   },
 
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
     "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "copyright": "Designed and Developed By Universe Force Marketing"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Stambena Gradnja Vojo",
     "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_description": "Kompletna rešenja za svaki korak vaše izgradnje"
   }
 }
