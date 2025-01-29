@@ -26,6 +26,40 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .services-section {
+    .container {
+      .service-content {
+        .title {
+          font-size: 25px;
+          line-height: 25px;
+        }
+        .text {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .services-section {
+    .container {
+      height: fit-content;
+      .service-content {
+        .title {
+          font-size: 25px;
+          line-height: 25px;
+        }
+        .text {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+
 .services-section .service-carousel .swiper-slide img {
   height: 300px !important; /* Default height for all images */
   object-fit: cover !important;

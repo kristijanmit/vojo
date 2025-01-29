@@ -1,10 +1,13 @@
 .footer-section {
     background-color: #212121;
 }
-.upper-footer{
+.upper-footer {
     background-image: url(../public/images/foter.png);
     background-size: cover;
-    height: 70vh;
-    text-align: center;
+    // height: 70vh;
+    // text-align: center;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

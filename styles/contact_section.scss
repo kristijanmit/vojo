@@ -68,15 +68,10 @@ textarea::placeholder {
     background-color: #e03030;
 }
 
-@media (max-width: 768px) {
-    .form-row {
-        flex-direction: column;
-    }
-}
-
 .dark {
     background-color: #212121;
 }
+
 .column-section {
     display: flex;
     flex-direction: column;
@@ -99,4 +94,32 @@ textarea::placeholder {
 
 .btn-primary {
     background-color: #ff0000;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-form-container {
+        padding: 5rem 15%;
+    }
+    .wrap {
+        // flex-wrap: nowrap;
+        // flex-direction: row;
+        // overflow-y: scroll;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-form-container {
+        padding: 5rem 10%;
+    }
+    .form-row {
+        flex-direction: column;
+    }
+
+    .wrap {
+        .gallery-images {
+            width: 40%;
+            height: auto;
+        }
+    }
 }

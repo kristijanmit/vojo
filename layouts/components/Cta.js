@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Cta({ cta }) {
   return (
-    <section id="galerija" className="section dark">
+    <section id="galerija" className="section dark pb-0">
       <div className="column-section section container rounded-xl ">
         <div className="mb-8 text-center">
           {markdownify(
@@ -29,7 +29,7 @@ function Cta({ cta }) {
             ))}
           </div>
         </div>
-        <div className="mt-20 text-center md:col-6 lg:col-5 md:mt-0 md:text-center">
+        {/* <div className="mt-20 text-center md:col-6 lg:col-5 md:mt-0 md:text-center">
           {cta.button.enable && (
             <Link
               className="btn btn-primary mt-14"
@@ -39,7 +39,7 @@ function Cta({ cta }) {
               {cta.button.label}
             </Link>
           )}
-        </div>
+        </div> */}
       </div>
     </section>
   );

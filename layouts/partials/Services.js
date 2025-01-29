@@ -41,9 +41,8 @@ const Services = ({ services }) => {
 
             {/* Content */}
             <div
-              className={`service-content mt-5 md:mt-0 ${
-                !isOdd && "md:order-1"
-              }`}
+              className={`service-content mt-5 md:mt-0 ${!isOdd && "md:order-1"
+                }`}
             >
               <h2 className="font-bold title leading-[40px] white">
                 {service?.title}
