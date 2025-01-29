@@ -10,7 +10,8 @@ const ContactInfo = () => {
     const { copyright, footer_content } = config.params;
     const { contactInfo } = menu;
     return (
-        <footer className="section bg-theme-light pb-0">
+        
+        <footer className="upper-footer" >
             <div className="container">
                 {/* footer menu */}
                 <div className="row">
