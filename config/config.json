@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
-    "base_url": "/",
+    "title": "Stambena Gradnja Vojo",
+    "base_url": "https://stambenagradnjavojo.rs",
     "favicon": "/images/logo.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "70",
-    "logo_text": "Bigspring Light"
+    "logo_text": "Stambena gradnja Vojo"
   },
 
   "settings": {
@@ -24,13 +24,13 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By Universe Force Marketing"
+    "footer_content": "",
+    "copyright": "Developed By Universe Force Marketing"
   },
 
   "metadata": {
     "meta_author": "Stambena Gradnja Vojo",
-    "meta_image": "",
+    "meta_image": "/images/logo.png",
     "meta_description": "Kompletna rešenja za svaki korak vaše izgradnje"
   }
 }
