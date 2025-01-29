@@ -11,7 +11,7 @@ const Services = ({ services }) => {
     const isOdd = index % 2 > 0;
     return (
       <section
-        id={index == 0 ? 'usluge' : ''}
+        id={index == 0 ? "usluge" : ""}
         key={`service-${index}`}
         className={`section services-section ${isOdd && "dark-background"}`}
       >
@@ -41,10 +41,13 @@ const Services = ({ services }) => {
 
             {/* Content */}
             <div
-              className={`service-content mt-5 md:mt-0 ${!isOdd && "md:order-1"
-                }`}
+              className={`service-content mt-5 md:mt-0 ${
+                !isOdd && "md:order-1"
+              }`}
             >
-              <h2 className="font-bold title leading-[40px] white">{service?.title}</h2>
+              <h2 className="font-bold title leading-[40px] white">
+                {service?.title}
+              </h2>
               <p className="mb-2 text mt-4 white">{service?.content}</p>
               {/* {service.button.enable && (
                 <Link

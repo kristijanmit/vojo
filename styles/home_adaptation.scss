@@ -1,61 +1,65 @@
 .home-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/images/home_background.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 85vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("/images/home_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    .banner-title {
-        width: 70%;
-    }
-    .title {
-        font-size: 64px;
-    }
-    .subtitle {
-        font-size: 22px;
-    }
+  .banner-title {
+    width: 70%;
+  }
+  .title {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
 
-    .button {
-        margin-top: 2rem !important;
-    }
+  .button {
+    margin-top: 3rem !important;
+  }
 }
 
 .home-features {
-    background-color: #212121;
+  background-color: #212121;
+  padding: 3rem 0;
 
-    .text-top,
-    .text-bottom {
-        font-size: 22px;
-    }
-    .text-top {
-        font-weight: 600;
-        margin-bottom: 4rem;
-    }
-    .text-bottom {
-        font-weight: 500;
-        margin-top: 4rem;
+  .text-top,
+  .text-bottom {
+    font-weight: 500;
+    margin-bottom: 4rem;
+    line-height: normal;
+    font-size: 18px;
+  }
+
+  .text-bottom {
+    margin-top: 4rem;
+  }
+
+  .feature-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // padding: 0 8%;
+  }
+
+  .feature-card {
+    background-color: #ff0000;
+    box-shadow: inset 15px 11px 35px -24px rgba(0, 0, 0, 0.7);
+    width: 40%;
+
+    .white {
+      font-weight: 600;
+      color: white;
     }
 
-    .feature-card-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        // padding: 0 8%;
+    .feature-paragraph {
+      color: white;
     }
-
-    .feature-card {
-        background-color: #ff0000;
-        width: 40%;
-
-        .feature-paragraph {
-            color: #ffffff;
-        }
-
-        .white {
-            color: #ffffff;
-        }
-    }
+  }
 }

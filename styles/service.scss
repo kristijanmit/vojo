@@ -2,24 +2,40 @@
 //     background-color: red !important;
 // }
 .services-section {
-    background-color: red;
+  background-color: red;
 
-    .title {
-        font-size: 44px;
+  .container {
+    max-width: 90%;
+    height: 310px;
+
+    .service-content {
+      width: 80%;
+      .title {
+        font-size: 38px;
         font-weight: 600;
-        line-height: 53px;
+        line-height: 50px;
+        max-width: 330px;
+        word-wrap: break-word;
+      }
+
+      .text {
+        font-size: 19px;
+        line-height: 28px;
+      }
     }
-    .text {
-        font-size: 22px;
-        font-weight: 500;
-        line-height: 32px;
-    }
+  }
+}
+
+.services-section .service-carousel .swiper-slide img {
+  height: 300px !important; /* Default height for all images */
+  object-fit: cover !important;
+  border-radius: 16px;
 }
 
 .dark-background {
-    background-color: #2f2f2f;
+  background-color: #2f2f2f;
 }
 
 .white {
-    color: white;
+  color: white;
 }

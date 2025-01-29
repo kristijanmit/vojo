@@ -12,15 +12,15 @@ feature:
   title: Osnovana 2022. godine, Stambena Gradnja Vojo se specijalizuje za visokokvalitetnu stambenu i komercijalnu izgradnju. Naša posvećenost preciznosti, pouzdanosti i dugoročnoj saradnji osigurava da svaki projekat bude završen na vreme i premašuje očekivanja.
   subtitle: Ističemo se kako u grubim građevinskim radovima, uključujući iskopavanja, vodovodne instalacije i temelje, tako i u završnim radovima poput elektroinstalacija, malterisanja i enterijerskog dizajna. Stručnost našeg tima osigurava da svaki projekat, od temelja do ključa u rukama, bude završen prema najvišim standardima.
   features:
-    - name: "Priprema za iskopavanje"
+    - name: "Priprema Terena i Iskopavanje:"
       icon: "/images/code.svg"
       content: "Postavljanje temelja za izvrsnost."
-    - name: "Završni Radovi Enterijera:"
-      icon: "/images/oop.svg"
-      content: "Transformisanje prostora u domove i poslovne objekte."
     - name: "Strukturni Razvoj:"
       icon: "/images/user-clock.svg"
       content: "Snažno, pouzdano i izgrađeno da traje."
+    - name: "Završni Radovi Enterijera:"
+      icon: "/images/oop.svg"
+      content: "Transformisanje prostora u domove i poslovne objekte."
     - name: "Upravljanje Projektima:"
       icon: "/images/love.svg"
       content: "Rešenja od početka do kraja za besprekornu realizaciju."

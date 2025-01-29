@@ -8,7 +8,7 @@ const HomeFeatures = ({ feature }) => {
         <div className="text-center">
           <p className="mt-4 white text-top">{markdownify(feature.title)}</p>
         </div>
-        <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3 feature-card-list">
+        <div className="mt-8 grid gap-x-14 gap-y-14 sm:grid-cols-2 lg:grid-cols-3 feature-card-list">
           {feature.features.map((item, i) => (
             <div
               className="feature-card rounded-xl bg-white p-5 pb-8 text-center"
@@ -18,8 +18,8 @@ const HomeFeatures = ({ feature }) => {
                 <Image
                   className="mx-auto white"
                   src={item.icon}
-                  width={30}
-                  height={30}
+                  width={70}
+                  height={70}
                   alt=""
                 />
               )}
@@ -31,7 +31,9 @@ const HomeFeatures = ({ feature }) => {
           ))}
         </div>
         <div className="text-center">
-          <p className="mt-4 white text-bottom">{markdownify(feature.subtitle)}</p>
+          <p className="mt-4 white text-bottom">
+            {markdownify(feature.subtitle)}
+          </p>
         </div>
       </div>
     </section>
