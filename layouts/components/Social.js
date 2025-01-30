@@ -73,8 +73,9 @@ const Social = ({ source, className }) => {
             href={facebook}
             target="_blank"
             rel="noopener noreferrer nofollow"
+            className="flex items-center justify-center w-12 h-12 rounded-full bg-red-700 text-white transition hover:bg-white hover:border hover:border-red-700"
           >
-            <IoLogoFacebook />
+            <IoLogoFacebook className="w-6 h-6 text-white transition hover:text-red-700" />
           </a>
         </li>
       )}
@@ -85,8 +86,9 @@ const Social = ({ source, className }) => {
             href={twitter}
             target="_blank"
             rel="noopener noreferrer nofollow"
+            className="flex items-center justify-center w-12 h-12 rounded-full bg-red-700 text-white transition hover:bg-white hover:border hover:border-red-700"
           >
-            <IoLogoTwitter />
+            <IoLogoTwitter className="w-6 h-6 text-white transition hover:text-red-700" />
           </a>
         </li>
       )}
@@ -97,8 +99,9 @@ const Social = ({ source, className }) => {
             href={instagram}
             target="_blank"
             rel="noopener noreferrer nofollow"
+            className="flex items-center justify-center w-12 h-12 rounded-full bg-red-700 text-white transition hover:bg-white hover:border hover:border-red-700"
           >
-            <IoLogoInstagram />
+            <IoLogoInstagram className="w-6 h-6 text-white transition hover:text-red-700" />
           </a>
         </li>
       )}
@@ -109,8 +112,9 @@ const Social = ({ source, className }) => {
             href={youtube}
             target="_blank"
             rel="noopener noreferrer nofollow"
+            className="flex items-center justify-center w-12 h-12 rounded-full bg-red-700 text-white transition hover:bg-white hover:border hover:border-red-700"
           >
-            <IoLogoYoutube />
+            <IoLogoYoutube className="w-6 h-6 text-white transition hover:text-red-700" />
           </a>
         </li>
       )}
@@ -121,8 +125,9 @@ const Social = ({ source, className }) => {
             href={linkedin}
             target="_blank"
             rel="noopener noreferrer nofollow"
+            className="flex items-center justify-center w-12 h-12 rounded-full bg-red-700 text-white transition hover:bg-white hover:border hover:border-red-700"
           >
-            <IoLogoLinkedin />
+            <IoLogoLinkedin className="w-6 h-6 text-white transition hover:text-red-700" />
           </a>
         </li>
       )}

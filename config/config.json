@@ -4,6 +4,7 @@
     "base_url": "https://stambenagradnjavojo.rs",
     "favicon": "/images/logo.png",
     "logo": "/images/logo.png",
+    "logo_secondary": "/images/logo-circle.png",
     "logo_width": "200",
     "logo_height": "70",
     "logo_text": "Stambena gradnja Vojo"
@@ -25,12 +26,13 @@
     "contact_form_action": "",
     "tag_manager_id": "",
     "footer_content": "",
-    "copyright": "© Copyright Universe Force Group. Sva prava zadržana. "
+    "copyright": "© Copyright Universe Force Group. Sva prava zadržana."
   },
 
   "metadata": {
     "meta_author": "Stambena Gradnja Vojo",
-    "meta_image": "/images/logo.png",
+    "meta_image": "/images/logo-secondary.png",
     "meta_description": "Kompletna rešenja za svaki korak vaše izgradnje"
   }
+  
 }

@@ -1,6 +1,14 @@
 .footer-section {
   background-color: #212121;
 
+  .logo-container {
+    img {
+      width: 200px;
+      position: relative;
+      bottom: 45px;
+    }
+  }
+
   h2 {
     font-size: 20px;
     font-weight: 600;
@@ -8,7 +16,7 @@
   }
   .contact {
     padding-left: 5rem;
-    width: auto;
+    width: max-content;
 
     .footer-content {
       color: rgba(255, 255, 255, 0.747);
@@ -39,7 +47,6 @@
 
   .email {
     padding-left: 5rem;
-    width: auto;
 
     .mt-6,
     .mb-1 {

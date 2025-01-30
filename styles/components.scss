@@ -16,21 +16,27 @@
 // social icon style
 .social-icons {
   @apply space-x-4;
-  margin-top: 1.5rem;
+  margin-top: -4rem;
+
   li {
     @apply inline-block;
+
     a {
-      @apply block h-9 w-9 rounded-full border border-primary text-center text-white transition;
-      border-color: #aa0000;
+      @apply block h-9 w-9 rounded-full flex bg-primary text-center text-white transition; /* Change border to bg-primary */
+      background-color: #aa0000; /* Fill with red */
 
       svg {
-        @apply m-auto h-9 fill-primary;
-        fill: white;
+        @apply m-auto h-5 w-5 fill-white transition; /* Ensure icons stay white */
       }
 
-      &:hover svg {
-        @apply fill-white;
-        fill: #aa0000;
+      &:hover {
+        background-color: white; /* Invert on hover */
+        border-color: #aa0000; /* Keep border on hover */
+
+        svg {
+          @apply fill-primary;
+          fill: #aa0000; /* Change icon color to red */
+        }
       }
     }
   }

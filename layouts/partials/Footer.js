@@ -14,17 +14,19 @@ const Footer = () => {
       <div className="container">
         {/* footer menu */}
         <div className="row">
-          <div className="md-12 sm:col-6 lg:col-6">
-            <Link href="/" aria-label="Bigspring">
+          <div className="md-12 sm:col-6 lg:col-6 logo-container">
+            <Link href="/" aria-label="Vojo">
               <Image
-                src={config.site.logo}
+                src={config.site.logo_secondary}
                 width={config.site.logo_width}
                 height={config.site.logo_height}
                 alt=""
               />
             </Link>
             {/* {markdownify(footer_content, "p", "mt-3 mb-6")} */}
-            <Social source={social} className="social-icons mb-8" />
+            <div className="social-container">
+              <Social source={social} className="social-icons mb-8" />
+            </div>
           </div>
           {footer.map((col) => {
             return (
