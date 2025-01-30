@@ -55,3 +55,9 @@
     color: red;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .nav-contact-btn {
+    display: none;
+  }
+}

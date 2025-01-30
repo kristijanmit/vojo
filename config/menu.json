@@ -13,12 +13,12 @@
       "url": "/#usluge"
     },
     {
-      "name": "Kontakt",
-      "url": "/#kontakt"
-    },
-    {
       "name": "Galerija",
       "url": "/#galerija"
+    },
+    {
+      "name": "Kontakt",
+      "url": "/#kontakt"
     }
   ],
   "contactInfo": [

@@ -95,7 +95,7 @@ const Header = () => {
               </React.Fragment>
             ))}
             {enable && (
-              <li className="md:hidden">
+              <li className="md:hidden  nav-contact-btn">
                 <Link
                   className="btn btn-primary z-0 py-[14px]"
                   href={link}

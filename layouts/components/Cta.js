@@ -7,7 +7,7 @@ import Image from "next/image";
 function Cta({ cta }) {
   return (
     <section id="galerija" className="section dark pb-0">
-      <div className="column-section section container rounded-xl ">
+      <div className="column-section section container rounded-xl gallery">
         <div className="mb-8 text-center">
           {markdownify(
             cta.title,

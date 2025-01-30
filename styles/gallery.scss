@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    .gallery {
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+        .grid {
+            display: flex;
+            overflow: scroll;
+        }
+    }
+}

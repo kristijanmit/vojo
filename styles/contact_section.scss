@@ -110,7 +110,13 @@ textarea::placeholder {
 
 @media (max-width: 768px) {
   .contact-form-container {
-    padding: 5rem 10%;
+    padding: 3rem 10%;
+
+    h2 {
+      font-size: 25px;
+      line-height: 33px;
+      margin-bottom: 2rem;
+    }
   }
   .form-row {
     flex-direction: column;

@@ -1,6 +1,5 @@
 .home-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
-    url("/images/home_background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/images/home_background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,6 +67,14 @@
 }
 
 @media (max-width: 768px) {
+  .home-section {
+    .title {
+      font-size: 32px;
+    }
+    .subtitle {
+      font-size: 17px;
+    }
+  }
   .home-features {
     .feature-card-list {
       .feature-card {
