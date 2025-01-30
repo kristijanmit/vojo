@@ -13,16 +13,16 @@ feature:
   subtitle: Ističemo se kako u grubim građevinskim radovima, uključujući iskopavanja, vodovodne instalacije i temelje, tako i u završnim radovima poput elektroinstalacija, malterisanja i enterijerskog dizajna. Stručnost našeg tima osigurava da svaki projekat, od temelja do ključa u rukama, bude završen prema najvišim standardima.
   features:
     - name: "Priprema Terena i Iskopavanje:"
-      icon: "/images/code.svg"
+      icon: "/images/CardIcon1.png"
       content: "Postavljanje temelja za izvrsnost."
     - name: "Strukturni Razvoj:"
-      icon: "/images/user-clock.svg"
+      icon: "/images/CardIcon2.png"
       content: "Snažno, pouzdano i izgrađeno da traje."
     - name: "Završni Radovi Enterijera:"
-      icon: "/images/oop.svg"
+      icon: "/images/CardIcon3.png"
       content: "Transformisanje prostora u domove i poslovne objekte."
     - name: "Upravljanje Projektima:"
-      icon: "/images/love.svg"
+      icon: "/images/CardIcon4.png"
       content: "Rešenja od početka do kraja za besprekornu realizaciju."
 
 # services
@@ -76,12 +76,12 @@ call_to_action:
   title: Pogledajte naše projekte i saznajte zašto je Stambena Gradnja Vojo pouzdano ime u građevinskoj industriji.
   # content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
   images:
-    - "/images/service-slide-1.png"
-    - "/images/service-slide-2.png"
-    - "/images/service-slide-3.png"
-    - "/images/service-slide-1.png"
-    - "/images/service-slide-2.png"
-    - "/images/service-slide-3.png"
+    - "/images/gallery1.jpg"
+    - "/images/gallery2.jpg"
+    - "/images/gallery3.jpg"
+    - "/images/gallery4.jpg"
+    - "/images/gallery5.jpg"
+    - "/images/gallery6.jpg"
   button:
     enable: true
     label: "Kontakt"

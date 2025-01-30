@@ -28,9 +28,9 @@ const Footer = () => {
           </div>
           {footer.map((col) => {
             return (
-              <div className="mb-12 sm:col-6 lg:col-3" key={col.name}>
+              <div className="mb-12 sm:col-6 lg:col-3 contact" key={col.name}>
                 {markdownify(col.name, "h2", "h4 white")}
-                <ul className="mt-6">
+                <ul className="mt-6 footer-content">
                   {col?.menu.map((item) => (
                     <li className="mb-1" key={item.text}>
                       <Link href={item.url} rel="">

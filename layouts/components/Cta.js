@@ -12,15 +12,15 @@ function Cta({ cta }) {
           {markdownify(
             cta.title,
             "h2",
-            "mx-auto max-w-[1100px] font-medium leading-[34px] white text-[24px]",
+            "mx-auto max-w-[1000px] font-medium leading-[34px] white text-[24px]",
           )}
           {markdownify(cta.content, "p", "mt-3 text-[26px]")}
         </div>
         <div className="mt-10 mx-auto items-center justify-center">
-          <div className="md:col-5 lg:col-12 wrap">
+          <div className="grid grid-cols-3 grid-rows-2 gap-4 md:w-[1000px] lg:w-[1000px]">
             {cta.images.map((e) => (
               <Image
-                className="w-[330px] h-[250px] gallery-images"
+                className="w-full aspect-[4/3] object-cover rounded-lg"
                 src={e}
                 alt="call to action image"
                 width={330}

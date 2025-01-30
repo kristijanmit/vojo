@@ -14,15 +14,15 @@ const HomeFeatures = ({ feature }) => {
         <div className="mt-8 grid gap-x-14 gap-y-14 sm:grid-cols-12 lg:grid-cols-3 feature-card-list">
           {feature.features.map((item, i) => (
             <div
-              className="feature-card rounded-xl bg-white p-5 pb-8 text-center"
+              className="feature-card rounded-xl bg-white p-2 pb-8 text-center"
               key={`feature-${i}`}
             >
               {item.icon && (
                 <Image
                   className="mx-auto white"
                   src={item.icon}
-                  width={70}
-                  height={70}
+                  width={80}
+                  height={80}
                   alt=""
                 />
               )}
@@ -39,7 +39,11 @@ const HomeFeatures = ({ feature }) => {
           </p>
         </div>
         <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-center md:order-2 md:ml-0 md:flex button">
-          <Link className="btn btn-primary z-0 py-[14px] bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300" href={link} rel="">
+          <Link
+            className="btn btn-primary z-0 py-[14px] bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300"
+            href={link}
+            rel=""
+          >
             {label}
           </Link>
         </div>

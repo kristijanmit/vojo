@@ -16,7 +16,7 @@ const Services = ({ services }) => {
         className={`section services-section ${isOdd && "dark-background"}`}
       >
         <div className="container">
-          <div className="items-center gap-8 md:grid md:grid-cols-2">
+          <div className="items-center gap-16 md:grid md:grid-cols-2">
             {/* Carousel */}
             <div className={`service-carousel ${!isOdd && "md:order-2"}`}>
               <Swiper
@@ -41,8 +41,9 @@ const Services = ({ services }) => {
 
             {/* Content */}
             <div
-              className={`service-content mt-5 md:mt-0 ${!isOdd && "md:order-1"
-                }`}
+              className={`service-content mt-5 md:mt-0 ${
+                !isOdd && "md:order-1"
+              }`}
             >
               <h2 className="font-bold title leading-[40px] white">
                 {service?.title}
