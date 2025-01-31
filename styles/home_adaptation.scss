@@ -1,5 +1,6 @@
 .home-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/images/home_background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("/images/home_background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,9 +64,6 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-}
-
 @media (max-width: 768px) {
   .home-section {
     .title {
@@ -76,6 +74,27 @@
     }
   }
   .home-features {
+    .feature-card-list {
+      .feature-card {
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .home-section {
+    .subtitle {
+      line-height: normal;
+    }
+  }
+  .home-features {
+    .text-top,
+    .text-bottom {
+      font-weight: 400;
+      font-size: 16px;
+    }
+
     .feature-card-list {
       .feature-card {
         width: 80%;
